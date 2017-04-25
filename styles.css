@@ -1,0 +1,40 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav {
+  width: 97%;
+  background-color: #689ACA;
+  display:flex;
+  justify-content: space-between;
+  padding: 0 2% 0 1%;
+  align-items:center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 .75em;
+}
+
+nav ul li .fa {
+  font-size: 1.5em;
+}
+
+nav ul li .fa.light {
+  color:white;
+}
+
+#logo {
+  width:4em;
+  height:4em;
+}
+
+main {
+  background-color:#202020;
+  height: calc(100vh - 50px);
+}
+
+h1 {
+  color:blue;
+  font-size:75px;
+}
